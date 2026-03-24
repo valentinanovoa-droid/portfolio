@@ -1,0 +1,87 @@
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+.hero-img {
+  display: block;
+}
+
+.hero-title {
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.hero-subtitle {
+  font-family: 'Heebo', sans-serif;
+  font-size: 2vw;
+}
+
+.hero-button {
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 900;
+  font-size: 1.5vw;
+  padding: 0.8rem 2rem;
+}
+
+.tendencias {
+  margin: 100px 0;
+}
+
+.tendencias-title {
+  font-weight: 900;
+  font-family: 'Heebo', sans-serif;
+  font-size: 40px;
+}
+
+.tendencias-lista {
+  font-size: 30px;
+}
+
+.nuevo-productos-title {
+  font-weight: 600;
+  font-family: 'Heebo', sans-serif;
+  font-size: 40px;
+}
+
+.otros-productos .item {
+  position: relative;
+}
+
+.otros-productos .item img.producto {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.otros-productos .item img.new-icon,
+.otros-productos .item img.plus-icon {
+  position: absolute;
+  z-index: 2;
+  max-width: 100%;
+  height: auto;
+}
+
+.otros-productos .item img.new-icon {
+  top: 5px;
+  left: 5px;
+}
+
+.otros-productos .item img.plus-icon {
+  top: -7px;
+  right: 5px;
+}
+
+.banner-img {
+  object-fit: cover;
+}
+
+ion-icon {
+  font-size: 2rem;
+}
+
+.footer-section .footer-text {
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
