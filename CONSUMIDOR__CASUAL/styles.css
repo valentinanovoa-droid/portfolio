@@ -1,0 +1,103 @@
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+ion-icon {
+  font-size: 2rem;
+}
+
+
+.hero-title {
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.hero-subtitle {
+  font-family: 'Heebo', sans-serif;
+  font-size: 2vw;
+}
+
+.hero-button {
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 900;
+  font-size: 1.5vw;
+  padding: 0.8rem 2rem;
+}
+
+.destacados {
+  margin: 100px 0;
+}
+
+.titulo-seccion {
+  font-weight: 900;
+  font-family: 'Heebo', sans-serif;
+  font-size: 40px;
+}
+
+.destacados-lista {
+  font-size: 30px;
+}
+
+.destacados img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .destacados div {
+    font-size: 18px !important;
+  }
+}
+
+.otros-productos .item {
+  position: relative;
+}
+
+.otros-productos .item img.producto {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.otros-productos .item img.new-icon,
+.otros-productos .item img.plus-icon {
+  position: absolute;
+  z-index: 2;
+  max-width: 100%;
+  height: auto;
+}
+
+.otros-productos .item img.new-icon {
+  top: 5px;
+  left: 5px;
+}
+
+.otros-productos .item img.plus-icon {
+  top: -7px;
+  right: 5px;
+}
+
+
+.obj-cover {
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-section .footer-text {
+  border: 1px solid #000;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.footer .redes-iconos img {
+  transition: transform 0.2s ease;
+}
+
+.footer .redes-iconos img:hover {
+  transform: scale(1.2);
+}
