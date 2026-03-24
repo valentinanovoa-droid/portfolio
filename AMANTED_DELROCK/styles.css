@@ -1,0 +1,110 @@
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+.hero-img {
+  display: block;
+}
+
+.hero-title {
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.hero-subtitle {
+  font-family: 'Heebo', sans-serif;
+  font-size: 2vw;
+}
+
+.hero-button {
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 900;
+  font-size: 1.5vw;
+  padding: 0.8rem 2rem;
+}
+
+.separador {
+  height: 80px;
+}
+
+.zapatilla-section {
+  padding-top: 80px;
+}
+
+.zapatilla-img {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+.zapatilla-img2 {
+  height: 350px;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.divider-line {
+  flex-grow: 1;
+  height: 2px;
+  background: #3c0c0c;
+}
+
+.item {
+  position: relative;
+}
+
+.item img.producto {
+  width: 100%;
+  display: block;
+}
+
+.new-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.plus-icon {
+  position: absolute;
+  top: -7px;
+  right: 5px;
+}
+
+.coleccion-img {
+  width: 328px;
+  height: 483px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.footer-section .footer-text {
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+ion-icon {
+  font-size: 2rem;
+}
+
+.destacados img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .destacados div {
+    font-size: 18px !important;
+  }
+}
